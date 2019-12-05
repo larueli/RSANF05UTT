@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RSA: Référence du fichier rsamaths.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RSA
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('rsamaths_8h.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier rsamaths.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Contient les prototypes des fonctions permettant de générer les clefs <a class="el" href="struct_r_s_a.html" title="Objet contenant les éléments essentiels d&#39;une clef RSA. ">RSA</a> et de les utiliser pour chiffrer et déchiffrer.  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="pointeurs_8h_source.html">pointeurs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="chaines_8h_source.html">chaines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="grdnb_8h_source.html">grdnb.h</a>&quot;</code><br />
+</div>
+<p><a href="rsamaths_8h_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_r_s_a.html">RSA</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Objet contenant les éléments essentiels d'une clef <a class="el" href="struct_r_s_a.html" title="Objet contenant les éléments essentiels d&#39;une clef RSA. ">RSA</a>.  <a href="struct_r_s_a.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:ada2a3b37a997557be5949b9cc24c84a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rsamaths_8h.html#ada2a3b37a997557be5949b9cc24c84a6">calcul_e</a> (<a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> phi_n, <a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> *d)</td></tr>
+<tr class="memdesc:ada2a3b37a997557be5949b9cc24c84a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de calculer e et d à partir de phi(n) tel que e * d = 1 mod phi(n)  <a href="#ada2a3b37a997557be5949b9cc24c84a6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ada2a3b37a997557be5949b9cc24c84a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e476d6d74dcb75d6d67b28b9ff75bf7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rsamaths_8h.html#a6e476d6d74dcb75d6d67b28b9ff75bf7">aleatoire</a> (int a, int b)</td></tr>
+<tr class="memdesc:a6e476d6d74dcb75d6d67b28b9ff75bf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Génére alétoirement un entier entre a et b, les deux inclus, avec a &lt;= b.  <a href="#a6e476d6d74dcb75d6d67b28b9ff75bf7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6e476d6d74dcb75d6d67b28b9ff75bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e7fe309fd1df9505115c3815a49120"><td class="memItemLeft" align="right" valign="top"><a id="a26e7fe309fd1df9505115c3815a49120"></a>
+<a class="el" href="struct_g_r_d_n_b.html">GRDNB</a>&#160;</td><td class="memItemRight" valign="bottom"><b>rabinmiller</b> ()</td></tr>
+<tr class="separator:a26e7fe309fd1df9505115c3815a49120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d68b1e1a62b78f85226a530928076b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rsamaths_8h.html#ae4d68b1e1a62b78f85226a530928076b">aleaGRDNB</a> (int taille, int base)</td></tr>
+<tr class="memdesc:ae4d68b1e1a62b78f85226a530928076b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Génére un entier aléatoire d'une taille et base précises.  <a href="#ae4d68b1e1a62b78f85226a530928076b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae4d68b1e1a62b78f85226a530928076b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced357cc1f1cae4275da8cc17fb472ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rsamaths_8h.html#aced357cc1f1cae4275da8cc17fb472ff">rabinmillerdeux</a> ()</td></tr>
+<tr class="memdesc:aced357cc1f1cae4275da8cc17fb472ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Génére un entier ayant une très forte chance d'être premier.  <a href="#aced357cc1f1cae4275da8cc17fb472ff">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aced357cc1f1cae4275da8cc17fb472ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12f1f13ac836ccf5ed192a0705462b4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rsamaths_8h.html#a12f1f13ac836ccf5ed192a0705462b4a">dechiffrer</a> (char *fichier, char *fichdest, <a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> n, <a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> a)</td></tr>
+<tr class="memdesc:a12f1f13ac836ccf5ed192a0705462b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dechiffre un fichier selon la clef a (e ou d, tout dépend le contexte de l'appel, vérification de signature ou déchiffrement) et son produit pq = n et écrit le résultat dans fichdest.  <a href="#a12f1f13ac836ccf5ed192a0705462b4a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a12f1f13ac836ccf5ed192a0705462b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbdf9469367e4bf506cf6f67c41978cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rsamaths_8h.html#afbdf9469367e4bf506cf6f67c41978cb">chiffrer</a> (char *fichier, char *fichdest, <a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> n, <a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> a)</td></tr>
+<tr class="memdesc:afbdf9469367e4bf506cf6f67c41978cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chiffre un fichier selon la clef a (d ou e, tout dépend le contexte de l'appel, signature ou chiffrement) et son produit pq = n et écrit le résultat dans fichdest.  <a href="#afbdf9469367e4bf506cf6f67c41978cb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afbdf9469367e4bf506cf6f67c41978cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab73c9bcff922081d8fe1977eb58f91ba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rsamaths_8h.html#ab73c9bcff922081d8fe1977eb58f91ba">tailleNombre</a> (int nombre, int base)</td></tr>
+<tr class="memdesc:ab73c9bcff922081d8fe1977eb58f91ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de savoir quelle taille le nombre prend à écrire dans une base donnée.  <a href="#ab73c9bcff922081d8fe1977eb58f91ba">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab73c9bcff922081d8fe1977eb58f91ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Contient les prototypes des fonctions permettant de générer les clefs <a class="el" href="struct_r_s_a.html" title="Objet contenant les éléments essentiels d&#39;une clef RSA. ">RSA</a> et de les utiliser pour chiffrer et déchiffrer. </p>
+<dl class="section author"><dt>Auteur</dt><dd>I. Laruelle / A. Masciulli - UTT NF05 A18 </dd></dl>
+</div><h2 class="groupheader">Documentation des fonctions</h2>
+<a id="ae4d68b1e1a62b78f85226a530928076b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d68b1e1a62b78f85226a530928076b">&#9670;&nbsp;</a></span>aleaGRDNB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> aleaGRDNB </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>taille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>base</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Génére un entier aléatoire d'une taille et base précises. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">taille</td><td>Un entier spécifiant la taille que le nombre généré doit respecter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">base</td><td>Un entier spécifiant la base. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Un <a class="el" href="struct_g_r_d_n_b.html" title="Objet représentant un grand nombre, sa taille et son signe. ">GRDNB</a> tel que nombre &gt;= base^(taille-1). </dd></dl>
+<dl class="section warning"><dt>Avertissement</dt><dd>La fonction srand() doit avoir été appellée auparavant.</dd></dl>
+<p>Exemple : aleaGRDNB(5,10) = 77760 (taille = 5, base 10).<br />
+Vous n'aurez jamais aleaGRDNB(5,10) = 1452 (car le résultat doit être de taille 5) </p>
+
+</div>
+</div>
+<a id="a6e476d6d74dcb75d6d67b28b9ff75bf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e476d6d74dcb75d6d67b28b9ff75bf7">&#9670;&nbsp;</a></span>aleatoire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int aleatoire </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Génére alétoirement un entier entre a et b, les deux inclus, avec a &lt;= b. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>est un entier </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>est un entier tel que b &gt;= a </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>un entier aléatoire compris entre a et b les deux inclus.</dd></dl>
+<dl class="section warning"><dt>Avertissement</dt><dd>La fonction srand() doit avoir été appellée auparavant. </dd></dl>
+
+</div>
+</div>
+<a id="ada2a3b37a997557be5949b9cc24c84a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada2a3b37a997557be5949b9cc24c84a6">&#9670;&nbsp;</a></span>calcul_e()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> calcul_e </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a>&#160;</td>
+          <td class="paramname"><em>phi_n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> *&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet de calculer e et d à partir de phi(n) tel que e * d = 1 mod phi(n) </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">phi_n</td><td>Un grand nombre phi_n </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">d</td><td>Addresse du <a class="el" href="struct_g_r_d_n_b.html" title="Objet représentant un grand nombre, sa taille et son signe. ">GRDNB</a> de la clef privée </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Un <a class="el" href="struct_g_r_d_n_b.html" title="Objet représentant un grand nombre, sa taille et son signe. ">GRDNB</a> qui contient la clef publique </dd></dl>
+<dl class="section warning"><dt>Avertissement</dt><dd>La fonction srand() doit avoir été appellée auparavant.</dd></dl>
+<p>Cette fonction génére aléatoirement e impair et non divisible par 5, et recherche <em>e * d + phi_n * k = pgcd(e,phi_n)</em> via euclide étendu.</p>
+<p>Tant que pgcd(e,phi_n) différent de 1, on régénère e et on recommence. </p>
+
+</div>
+</div>
+<a id="afbdf9469367e4bf506cf6f67c41978cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbdf9469367e4bf506cf6f67c41978cb">&#9670;&nbsp;</a></span>chiffrer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chiffrer </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>fichier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>fichdest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a>&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a>&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Chiffre un fichier selon la clef a (d ou e, tout dépend le contexte de l'appel, signature ou chiffrement) et son produit pq = n et écrit le résultat dans fichdest. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fichier</td><td>Chaine de caractères contenant le chemin relatif ou absolu du fichier à chiffrer, accessible en lecture. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fichdest</td><td>Chaine de caractères contenant le chemin relatif ou absolu du fichier chiffré, accessible en écriture, créé s'il n'existe pas et écrasé s'il existe. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>C'est le produit p*q en base 2, qui va servir ici de modulo à toutes les données chiffrées. nb de bits(n) &gt; 8 (taille d'un caractère). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>C'est l'exposant en base 2 de toutes les données chiffrées, d ou e selon que l'on signe avec sa clef privée ou que l'on chiffre avec la clef publique du destinataire.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Avertissement</dt><dd>"fichbin.txt", dans le répertoire d'éxécution doit être accessible en écriture et sera créé ou sera écrasé puis effacé.</dd></dl>
+<ul>
+<li>Le programme commence par lire le fichier source en convertissant un à un tous les caractères en ASCII en base 2 sur 8 bits et en les écrivant dans un autre fichier (fichbin.txt) sur une seule ligne sous forme binaire (un caractère = 8 * '0' et '1').</li>
+<li>On s'assure que la taille de ce nouveau fichier soit un multiple de ent(log2(n)) (équivalent à (nb de bits de n en base 2) - 1), sinon on complète avec des '0' à la fin.</li>
+<li>On écrit au début du fichier de destination le nombre de '0' ajoutés.</li>
+<li>On lit le nouveau fichier par bloc de ent(log2(n)) caractères (car 1 caractère = '0' ou '1' dans ce nouveau fichier).<ul>
+<li>Pour chaque bloc, on récupére bloc^a % n, c'est notre message chiffré. On compléte ce nouveau chiffre par des zeros pour qu'il ait une taille ent(log2(n)) + 1, la taille maximale que le reste peut avoir.</li>
+<li>On écrit ce nombre dans le fichier de destination</li>
+</ul>
+</li>
+<li>On répéte la lecture jusqu'à ce qu'il n'y ait plus de blocs à lire. </li>
+</ul>
+
+</div>
+</div>
+<a id="a12f1f13ac836ccf5ed192a0705462b4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12f1f13ac836ccf5ed192a0705462b4a">&#9670;&nbsp;</a></span>dechiffrer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dechiffrer </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>fichier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>fichdest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a>&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a>&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dechiffre un fichier selon la clef a (e ou d, tout dépend le contexte de l'appel, vérification de signature ou déchiffrement) et son produit pq = n et écrit le résultat dans fichdest. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fichier</td><td>Chaine de caractères contenant le chemin relatif ou absolu du fichier à déchiffrer, accessible en lecture. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fichdest</td><td>Chaine de caractères contenant le chemin relatif ou absolu du fichier déchiffré, accessible en écriture, créé s'il n'existe pas et écrasé s'il existe. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>C'est le produit p*q en base 2, qui va servir ici de modulo à toutes les données chiffrées. nb de bits(n) &gt; 8 (taille d'un caractère). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>C'est l'exposant en base 2 de toutes les données chiffrées, d ou e selon que l'on déchiffre avec sa clef privée ou que l'on vérifie une signature avec la clef publique de l'émetteur.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Avertissement</dt><dd>"dechifbin.txt", dans le répertoire d'éxécution doit être accessible en écriture et sera créé ou sera écrasé puis effacé.</dd></dl>
+<ul>
+<li>On lit dans le fichier chiffré le nombre de zeros ajoutés.</li>
+<li>On lit le fichier chiffré par bloc de ent(log2(n)) caractères, donc nb de bits(n) - 1.<ul>
+<li>Pour chaque bloc, on enlève les zéros devant, on récupére bloc^a % n, c'est notre message déchiffré. On compléte ce nouveau chiffre par des zeros pour qu'il ait une taille ent(log2(n)), la taille maximale que le reste peut avoir.</li>
+<li>Si on est sur le dernier bloc, on enlève les zeros ajoutés à la fin s'il y en a.</li>
+<li>On écrit ce nombre dans le fichier temporaire</li>
+</ul>
+</li>
+<li>On répéte la lecture jusqu'à ce qu'il n'y ait plus de blocs à lire.</li>
+<li>Le programme recommence à lire le fichier temporaire en convertissant les '0' et les '1' par bloc de 8 en caractères en ASCII et en écrivant le caractère dans le fichier de destination. </li>
+</ul>
+
+</div>
+</div>
+<a id="aced357cc1f1cae4275da8cc17fb472ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced357cc1f1cae4275da8cc17fb472ff">&#9670;&nbsp;</a></span>rabinmillerdeux()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_g_r_d_n_b.html">GRDNB</a> rabinmillerdeux </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Génére un entier ayant une très forte chance d'être premier. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Un <a class="el" href="struct_g_r_d_n_b.html" title="Objet représentant un grand nombre, sa taille et son signe. ">GRDNB</a> positif en base 2 s'écrivant sous la forme <em>2^s * d + 1</em>, avec <em>70 &lt;= s &lt;= 125</em> et <em>2^9 &lt;= d &lt; 2^20</em> et ayant une probabilité <em>1 - 1/4^5</em> d'être premier.</dd></dl>
+<dl class="section warning"><dt>Avertissement</dt><dd>La fonction srand() doit avoir été appellée auparavant.</dd></dl>
+<ul>
+<li>On génére <em>n = 2^s * d + 1</em>, avec <em>70 &lt;= s (aléatoire) &lt;= 125</em> et <em>2^9 &lt;= d (aléatoire) &lt; 2^21 avec d impair</em>, et on répéte la génération tant que n pas impair.<ul>
+<li>On génére a aléatoirement entre 10 et n/100<ul>
+<li>Si <em>reste = a^d % n</em> est égal à <em>1 ou n-1</em>, on dit que a passe le test.</li>
+<li>Sinon, on fait s fois l'opération <em>reste = reste^2 % n</em>, en regardant à chaque fois si reste est égal à <em>n-1</em>. Si on en trouve un seul, alors a passe le test.</li>
+<li>Si on fait l'opération s fois sans trouver de reste égal à n-1, a ne passe pas le test et n ne peut pas être premier. On génére alors un nouveau n.</li>
+</ul>
+</li>
+<li>Si a passe le test, alors on regénére un nouveau a et on refait les opération précédentes pour 4 a (5 a en tout). Si un seul d'entre eux ne passe pas le test, on regénére n.</li>
+</ul>
+</li>
+<li>Si on a 5 a qui passent le test de Rabin Miller, alors n a une probabilité <em>1 - 1/4^5 = 0.9990234375</em> d'être premier. </li>
+</ul>
+
+</div>
+</div>
+<a id="ab73c9bcff922081d8fe1977eb58f91ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab73c9bcff922081d8fe1977eb58f91ba">&#9670;&nbsp;</a></span>tailleNombre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tailleNombre </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nombre</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>base</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet de savoir quelle taille le nombre prend à écrire dans une base donnée. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">nombre</td><td>Un entier à tester. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">base</td><td>La base dans laquelle on veut savoir la taille. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Un entier, le nombre de chiffres nécessaires pour écire nombre dans la base donnée.</dd></dl>
+<p>Il suffit de compter le nombre de fois que le nombre est divisible entièrement par la base donnée. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="rsamaths_8h.html">rsamaths.h</a></li>
+    <li class="footer">Généré le Jeudi 20 Décembre 2018 16:53:07 pour RSA par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>
