@@ -13,7 +13,7 @@ Dans le cadre d'un [cours de tronc commun sur la programmation en C (NF05)](http
 
 ## Aide
 
-Vous trouverez le rapport `UTT NF05 A18 MASCIULLI LARUELLE Rapport.pdf` rendu à l'issue du cours, qui détaille beaucoup de choses sur le développement et le fonctionnement de cet outil.
+Vous trouverez le rapport `UTT NF05 A18 MASCIULLI LARUELLE Rapport.pdf` rendu à l'issue du cours, qui détaille beaucoup de choses sur le développement et le fonctionnement de cet outil. Le sujet du projet est dans le fichier `Sujet NF05 UTT RSA A18.pdf`.
 
 Il y a également la documentation du code générée via Doxygen, qui se trouve dans le dossier docs et accessible [sur github.io](https://larueli.github.io/RSANF05UTT/).
 
